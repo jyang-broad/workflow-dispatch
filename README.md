@@ -1,7 +1,7 @@
 # GitHub Action for Dispatching Workflows
 
 This action triggers another GitHub Actions workflow, using the `workflow_dispatch` event.  
-The workflow must be configured for this event type e.g. `on: [workflow_dispatch]`
+The workflow must be configured for this event type e.g. `on:  [workflow_dispatch]`
 
 This allows you to chain workflows, the classic use case is have a CI build workflow, trigger a CD release/deploy workflow when it completes. Allowing you to maintain separate workflows for CI and CD, and pass data between them as required.
 
